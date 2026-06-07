@@ -9,7 +9,8 @@ const skills = [
   "React.js",
   "Next.js",
   "Responsive Design",
-  "Mongo DB"
+  "Mongo DB",
+  "Mongo DB",
   
 ];
 
