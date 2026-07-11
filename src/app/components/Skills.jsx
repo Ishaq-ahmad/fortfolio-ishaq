@@ -10,8 +10,6 @@ const skills = [
   "Next.js",
   "Responsive Design",
   "Mongo DB",
-  "Mongo DB",
-  
 ];
 
 export default function Skills() {
@@ -38,20 +36,21 @@ export default function Skills() {
     //   </div>
     // </section>
 
-    <section id="skills"  className="bg-slate-950">
+    <section id="skills" className="bg-slate-950">
       <div className="py-17 flex flex-col items-center">
-        <h2 className="font-bold text-4xl mb-15 text-blue-600">
-          Skills
-        </h2>
-        
+        <h2 className="font-bold text-4xl mb-15 text-blue-600">Skills</h2>
+
         <div className="grid grid-cols-2 w-100  sm:grid-cols-3 sm:w-full  md:grid-cols-4 md:w-full  gap-6">
-            {skills.map((skill, idx)=>(
-                 <div key={idx} className="bg-slate-900 py-10  px-6 text-white font-bold text-center rounded-2xl hover:scale-105 hover:border-b-1 transition-all">
-                     <h3 className="text-[19px]">{skill}</h3>
-                 </div>
-             ))}
-          </div>
-    </div>
+          {skills.map((skill, idx) => (
+            <div
+              key={idx}
+              className="bg-slate-900 py-10  px-6 text-white font-bold text-center rounded-2xl hover:scale-105 hover:border-b-1 transition-all"
+            >
+              <h3 className="text-[19px]">{skill}</h3>
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }

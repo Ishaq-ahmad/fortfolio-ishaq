@@ -9,23 +9,20 @@ export default function Hero() {
       className="min-h-screen flex items-center justify-center bg-slate-950 text-white px-6"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
         >
-          <p className="text-blue-400 mb-4 text-lg">
-            Frontend Web Developer
-          </p>
+          <p className="text-blue-400 mb-4 text-lg">Frontend Web Developer</p>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mt-20">
             {`Hi, I 'am`} <span className="text-blue-500">Ishaq Ahmad</span>
           </h1>
 
           <p className="text-gray-400 mt-6 text-lg leading-8">
-            I create modern, responsive and premium web applications using
-             React and Tailwind CSS.
+            I create modern, responsive and premium web applications using React
+            and Tailwind CSS.
           </p>
 
           <div className="mt-8 flex gap-4 flex-wrap">
@@ -54,7 +51,7 @@ export default function Hero() {
           <div className="w-[320px] h-[320px] rounded-full bg-blue-500/20 blur-3xl absolute"></div>
 
           <img
-            src='/ishaq-picture.jpeg'
+            src="/ishaq.png"
             alt="developer"
             className="w-[350px] rounded-3xl border border-slate-700 shadow-2xl relative  hover:scale-105 duration-800"
           />
