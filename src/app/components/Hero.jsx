@@ -14,15 +14,15 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
         >
-          <p className="text-blue-400 mb-4 text-lg">Frontend Web Developer</p>
+          <p className="text-blue-400 mb-4 text-lg">Full Stack Developer</p>
 
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mt-20">
             {`Hi, I 'am`} <span className="text-blue-500">Ishaq Ahmad</span>
           </h1>
 
           <p className="text-gray-400 mt-6 text-lg leading-8">
-            I create modern, responsive and premium web applications using React
-            and Tailwind CSS.
+            I create modern, responsive and premium Full Stack web applications
+            using Fronted and Backend Development.
           </p>
 
           <div className="mt-8 flex gap-4 flex-wrap">

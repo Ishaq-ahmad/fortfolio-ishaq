@@ -7,9 +7,13 @@ const skills = [
   "JavaScript",
   "Tailwind CSS",
   "React.js",
-  "Next.js",
   "Responsive Design",
   "Mongo DB",
+  "Express js",
+  "Node Js",
+  "JWT Authentication",
+  "Mongoose",
+  "Session Authentication",
 ];
 
 export default function Skills() {

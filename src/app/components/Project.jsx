@@ -3,18 +3,19 @@ import React from "react";
 const projects = [
   {
     title: "Modern Landing Page",
-    image:
-      "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg",
+    image: "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg",
   },
   {
     title: "Modern Calculator",
-    image:
-      "https://images.pexels.com/photos/5915147/pexels-photo-5915147.jpeg",
+    image: "https://images.pexels.com/photos/5915147/pexels-photo-5915147.jpeg",
   },
   {
     title: "Modern ToDo App",
-    image:
-      "https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg",
+    image: "https://images.pexels.com/photos/892757/pexels-photo-892757.jpeg",
+  },
+  {
+    title: "Student Management System",
+    image: "/std-project1.jpg",
   },
 ];
 
@@ -22,7 +23,6 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-slate-900 text-white py-24 px-6">
       <div className="max-w-6xl mx-auto">
-
         <h2 className="text-4xl font-bold text-center mb-16 text-blue-500 ">
           Projects
         </h2>
@@ -40,9 +40,7 @@ export default function Projects() {
               />
 
               <div className="p-6">
-                <h3 className="text-2xl font-semibold">
-                  {project.title}
-                </h3>
+                <h3 className="text-2xl font-semibold">{project.title}</h3>
 
                 <button className="mt-4 bg-blue-500 px-5 py-2 rounded-lg hover:bg-blue-600 hover:px-6 transition-all duration-500">
                   Live Demo
